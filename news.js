@@ -5,10 +5,10 @@ const homeBtn = document.querySelector('#homeBtn');
   
 // Define an object with URL properties
 const data = {
-homeUrl: "http://127.0.0.1:5500/home.html",
-squadUrl: "http://127.0.0.1:5500/squad.html",
-historyUrl: "http://127.0.0.1:5500/history.html",
-storeUrl: "http://127.0.0.1:5500/store.html"
+homeUrl: "https://mohamedabdimohammud.github.io/phase-1-project/",
+squadUrl: "https://mohamedabdimohammud.github.io/phase-1-project-squad/",
+historyUrl: "https://mohamedabdimohammud.github.io/phase-1-project-history/",
+storeUrl: "https://mohamedabdimohammud.github.io/phase-1-project-store/"
 };
   
 // Add event listeners to buttons, using the URL properties from the data object
