@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manchester United 2021/22 News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#" id="homeBtn">Home</a></li>
+<li><a href="#" id="newsBtn">News</a></li>
+<li><a href="#" id="squadBtn">Squad</a></li>
+<li><a href="#" id="historyBtn">History</a></li>
+<li><a href="#" id="storeBtn">Store</a></li>
+</ul>
+</nav>
+<div class="hero-text">
+<h1>2021/22 News</h1>
+<h2>The latest news from the Red Devils</h2>
+</div>
+</header>
+<main>
+<section>
+<h2>Manchester United sign Jadon Sancho</h2>
+<img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article21128142.ece/ALTERNATES/s810/0_GettyImages-1234126767.jpg" alt="Jadon Sancho">
+<p>Manchester United have completed the signing of Jadon Sancho from Borussia Dortmund. The 21-year-old winger has signed a five-year contract at Old Trafford.</p>
+</section>
+<section>
+<h2>Paul Pogba extends contract</h2>
+<img src="https://www.independent.ie/sport/soccer/48626/39632931.ece/AUTOCROP/w1240h700/ipanews_44ed6b45-a19a-43d5-9e59-2559472d8a30_1" alt="Paul Pogba">
+<p>Paul Pogba has signed a new five-year contract with Manchester United. The French midfielder has been in excellent form this season, scoring seven goals and providing six assists in 21 appearances.</p>
+</section>
+<section>
+<h2>Manchester United beat Arsenal 3-0</h2>
+<img src="https://resources.premierleague.com/photos/premierleague/photo/2020/11/01/808ea3b6-4fa6-4ce7-aa2a-ec84d0d4a1ab/2020-11-01T181116Z_995117194_UP1EGB11EISBP_RTRMADP_3_SOCCER-ENGLAND-MUN-ARS-REPORT.JPG?width=500&height=333" alt="Manchester United vs Arsenal">
+<p>Manchester United produced a dominant performance to beat Arsenal 3-0 at the Emirates Stadium. Goals from Cristiano Ronaldo, Bruno Fernandes, and Marcus Rashford secured the three points for the Red Devils.</p>
+</section>
+<section>
+<h2>Edinson Cavani signs new contract</h2>
+<img src="https://i2-prod.mirror.co.uk/incoming/article24079619.ece/ALTERNATES/s1200c/3_Edinson-Cavani-Extends-his-Contract-at-Manchester-United.jpg" alt="Edinson Cavani">
+<p>Edinson Cavani has signed a new one-year contract with Manchester United. The Uruguayan striker has scored 12 goals in 25 appearances for the Red Devils since joining the club last season.</p>
+</section>
+</main>
+<footer>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+<p>© Manchester United 2023. All rights reserved.</p>
+</footer>
+<script>
+const squadBtn = document.querySelector('#squadBtn');
+const historyBtn = document.querySelector('#historyBtn');
+const storeBtn = document.querySelector('#storeBtn');
+const homeBtn = document.querySelector('#homeBtn');
+  
+// Define an object with URL properties
+const data = {
+homeUrl: "http://127.0.0.1:5500/home.html",
+squadUrl: "http://127.0.0.1:5500/squad.html",
+historyUrl: "http://127.0.0.1:5500/history.html",
+storeUrl: "http://127.0.0.1:5500/store.html"
+};
+  
+// Add event listeners to buttons, using the URL properties from the data object
+homeBtn.addEventListener('click', function() {
+window.location.href = data.homeUrl;
+});
+  
+squadBtn.addEventListener('click', function() {
+window.location.href = data.squadUrl;
+});
+  
+historyBtn.addEventListener('click', function() {
+window.location.href = data.historyUrl;
+});
+  
+storeBtn.addEventListener('click', function() {
+window.location.href = data.storeUrl;
+});
+  
+</script>
+</body>
+</html>
